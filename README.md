@@ -1,18 +1,18 @@
 # No Skippy
 
-A Dalamud plugin for FFXIV that slows down dialogue and makes cutscene skipping take a little effort, so the story gets read instead of clicked through.
+A Dalamud plugin for FFXIV that slows down dialogue and makes skipping a cutscene take some effort, so you read the story instead of clicking through it.
 
 ## Features
 
-- **Dialogue lock** - Spam-clicking or hammering the advance key through dialogue boxes engages a lock that swallows your input until you stop for a moment. A red lock replaces the advance arrow while it is active, and hovering it tells you why: the text is still being written, there is a delay to read, or you are clicking too fast.
+- **Dialogue lock** - If you spam click through dialogue, No Skippy stops your input until you pause for a moment. A red lock covers the advance arrow while it is active. Hover it to see why: the text is still being written, there is a delay to read, or you are clicking too fast.
 - **Input delay** - A new dialogue box ignores input for a short time after it appears or its text changes. Clicking during the delay restarts it, so you have to actually stop clicking.
-- **Wait for text** - Optionally ignore input until the text has finished writing out, then for the input delay after that.
-- **Skip guard** - Choosing Yes on the "Skip cutscene?" prompt only works while the skip combo is held (Ctrl+Shift by default). A progress ring follows your cursor while you hold it, with a configurable hold time. Optionally block skipping entirely.
-- **Bypass** - Holding the skip combo lets dialogue through immediately, ignoring the lock, the wait and the delay.
-- **Pause and master off** - Pause No Skippy for the rest of a cutscene, or for a set number of minutes elsewhere, or switch it off entirely until your next login.
-- **Info bar entry** - Shows whether No Skippy is on, off or paused, with the time remaining on a timed pause.
-- **Per-surface toggles** - Choose whether the dialogue lock applies in cutscenes, outside cutscenes, or both.
-- **Rebindable keys** - Every keybind is rebound by clicking it in the settings and pressing the new keys.
+- **Wait for text** - Optionally ignore input until the text has finished writing out, and then for the input delay after that.
+- **Skip guard** - Yes on the "Skip cutscene?" prompt only works while you hold the skip combo (Ctrl+Shift by default). A ring follows your cursor to show progress, and the hold time is configurable. You can also block skipping entirely.
+- **Bypass** - Hold the skip combo to advance dialogue immediately, ignoring the lock, the wait and the delay.
+- **Pause and master off** - Pause No Skippy until the end of a cutscene, or for a set number of minutes elsewhere. Master off turns it off completely until your next login.
+- **Info bar entry** - Shows whether No Skippy is on, off or paused, and how long a timed pause has left.
+- **Per-surface toggles** - Apply the dialogue lock in cutscenes, outside them, or both.
+- **Rebindable keys** - Click a keybind in the settings and press the new keys.
 
 ## Installation
 
@@ -26,15 +26,15 @@ https://raw.githubusercontent.com/devoreofox/NoSkippy/main/repo.json
 
 ## Usage
 
-Type `/noskippy` in-game to open the settings. Pick a category from the left panel: Dialogue, Cutscene skipping, Keybinds or Feedback.
+Type `/noskippy` in-game to open the settings. The categories on the left are Dialogue, Cutscene skipping, Keybinds and Feedback.
 
 ### Keybinds
 
-All of these can be rebound in the Keybinds page.
+You can rebind all of these on the Keybinds page.
 
-- `Ctrl+Shift` - Skip combo. Hold it to confirm the skip prompt, and to bypass the dialogue lock
-- `Ctrl+Alt+P` - Pause. In a cutscene it pauses until the cutscene ends, elsewhere for the pause length (2 minutes by default). Press again to cancel
-- `Ctrl+Alt+O` - Master off. Switches No Skippy off or on without unloading it, and resets to on at login
+- `Ctrl+Shift` - Skip combo. Hold it to confirm the skip prompt or to bypass the dialogue lock
+- `Ctrl+Alt+P` - Pause. In a cutscene it pauses until the cutscene ends. Elsewhere it pauses for the pause length (2 minutes by default). Press it again to cancel
+- `Ctrl+Alt+O` - Master off. Switches No Skippy off or on without unloading it. It resets to on at login
 
 ### Commands
 
