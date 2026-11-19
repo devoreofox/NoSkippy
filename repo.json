@@ -3,18 +3,20 @@
     "Author": "Oreo",
     "Name": "NoSkippy",
     "InternalName": "NoSkippy",
-    "Punchline": "TODO",
-    "Description": "TODO",
-    "RepoUrl": "TODO",
-    "IconUrl": "TODO/raw/refs/heads/main/NoSkippy/images/icon.png",
+    "Punchline": "Slow down dialogue and make cutscene skipping take effort.",
+    "Description": "No Skippy stops you spam-clicking through dialogue and makes skipping a cutscene deliberate.\n\n- Dialogue lock: rapid clicking is swallowed until you pause, and new boxes ignore input for a moment so text can be read.\n- Skip guard: confirming the skip prompt needs a held key combo (default Ctrl+Shift) with a progress ring, or can be blocked entirely.\n- Pause and master-off keybinds, an info bar entry, and chat messages, all rebindable and optional.\n\nOpen the settings with /noskippy.",
+    "RepoUrl": "https://github.com/devoreofox/NoSkippy",
+    "IconUrl": "https://github.com/devoreofox/NoSkippy/raw/refs/heads/main/NoSkippy/images/icon.png",
     "Tags": [
-      "TODO"
+      "Quality of Life",
+      "Cutscene",
+      "Dialogue"
     ],
     "DalamudApiLevel": 15,
     "AssemblyVersion": "0.0.0.1",
     "Version": "0.0.0.1",
-    "DownloadLinkInstall": "TODO/releases/latest/download/NoSkippy.zip",
-    "DownloadLinkUpdate": "TODO/releases/latest/download/NoSkippy.zip",
-    "DownloadLinkTesting": "TODO/releases/latest/download/NoSkippy.zip"
+    "DownloadLinkInstall": "https://github.com/devoreofox/NoSkippy/releases/latest/download/NoSkippy.zip",
+    "DownloadLinkUpdate": "https://github.com/devoreofox/NoSkippy/releases/latest/download/NoSkippy.zip",
+    "DownloadLinkTesting": "https://github.com/devoreofox/NoSkippy/releases/latest/download/NoSkippy.zip"
   }
 ]

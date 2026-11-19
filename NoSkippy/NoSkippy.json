@@ -1,10 +1,12 @@
 {
   "Author": "Oreo",
   "Name": "NoSkippy",
-  "Punchline": "TODO",
-  "Description": "TODO",
+  "Punchline": "Slow down dialogue and make cutscene skipping take effort.",
+  "Description": "No Skippy stops you spam-clicking through dialogue and makes skipping a cutscene deliberate.\n\n- Dialogue lock: rapid clicking is swallowed until you pause, and new boxes ignore input for a moment so text can be read.\n- Skip guard: confirming the skip prompt needs a held key combo (default Ctrl+Shift) with a progress ring, or can be blocked entirely.\n- Pause and master-off keybinds, an info bar entry, and chat messages, all rebindable and optional.\n\nOpen the settings with /noskippy.",
   "ApplicableVersion": "any",
   "Tags": [
-    "TODO"
+    "Quality of Life",
+    "Cutscene",
+    "Dialogue"
   ]
 }
